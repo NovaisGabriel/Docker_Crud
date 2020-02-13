@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Aplicativo de Teste</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div>
+            <h1>Docker Teste</h1>
+            <p>Basta utilizar o seguinte comando :</p>
+            <p><b>docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</b></p>
+            <p>Depois disso só será preciso fazer o uso do servidor local e poderá visualizar esta página em html.</p>
+            <p>Com o comando abaixo o acesso é feito de forma imediata e utilizando o container:</p>
+            <p><b>docker container run -d --name ex-daemon-basic -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</b></p>
+            <p>Para verificar quais containers estão rodando basta rodar o seguinte comando:</p>
+            <p><b>docker container ps</b></p>
+            <p>Para parar o container que está rodando acima basta executar o seguinte código:</p>
+            <p><b>docker container stop ex-daemon-basic</b></p>
+            <p>3 comandos interessantes:</p>
+            <p><b>docker container start ex-daemon-basic</b></p>
+            <p><b>docker container restart ex-daemon-basic</b></p>
+            <p><b>docker container stop ex-daemon-basic</b></p>
+            <p>Comandos para avaliar algumas características do seu container</p>
+            <p><b>docker container logs ex-daemon-basic</b></p>
+            <p><b>docker container inspect ex-daemon-basic</b></p>
+            <p>Comando para verificar que tipo de sistema operacional está sendo executado dentro do seu container:</p>
+            <p><b>docker container exec ex-daemon-basic uname -or</b></p>
+        </div>
+    </body>
+</html>
