@@ -2,7 +2,6 @@
 <p>O objetivo deste repositório é apresentar um exemplo simples de cadastro em que 
     os ambientes de produção foram construídos a partir de containers e imagem do Docker. Trata-se d eum repositório
     utilizado para o estudo do autor e assim podem haver alguns erros na implementação.
-
     A maior parte dos códigos foram retirados do curso da COD3R sobre Docker e assim os créditos devem ser dadas ao mesmo.
     Em especial, agradecimentos as aulas do professore Leonardo Moura Leitão.
 </p>
@@ -64,9 +63,7 @@
 <p>docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</p>
 
 <p>Depois é só acessar o servidor local com localhost:8080 que vai estar lá o index.html
-
-    <b>Observação:</b> É necessário colocar o diretório na pasta onde está situado o html, caso contrário não será possível visualizar a página que está sendo mandada para o servidor.
-    
-    Para maiores informações basta olhar o html pelo localhost que possui outras dicas. Está localizado em ex-volume/html.
+<b>Observação:</b> É necessário colocar o diretório na pasta onde está situado o html, caso contrário não será possível visualizar a página que está sendo mandada para o servidor.
+Para maiores informações basta olhar o html pelo localhost que possui outras dicas. Está localizado em ex-volume/html.
     </p>
 
