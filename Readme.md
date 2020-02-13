@@ -1,11 +1,13 @@
 <h1>Docker_Crud</h1>
-<p>O objetivo deste repositório é apresentar um exemplo simples de cadastro em que 
+<p align="justify">O objetivo deste repositório é apresentar um exemplo simples de cadastro em que 
     os ambientes de produção foram construídos a partir de containers e imagem do Docker. Trata-se d eum repositório
     utilizado para o estudo do autor e assim podem haver alguns erros na implementação.
     A maior parte dos códigos foram retirados do curso da COD3R sobre Docker e assim os créditos devem ser dadas ao mesmo.
     Em especial, agradecimentos as aulas do professore Leonardo Moura Leitão.
 </p>
 
+<h3>Resultado Final</h3>
+<p>Como resultado das aulas foi possível construir um cadastramento simples mas funcional e modularizado pelos containers de frontend, backend e banco de dados em mongodb.</p>
 <img src="Crudexemplo.png"/>
 
 <h3>Minhas anotações...</h3>
