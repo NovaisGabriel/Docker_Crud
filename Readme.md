@@ -6,6 +6,8 @@
     Em especial, agradecimentos as aulas do professore Leonardo Moura Leitão.
 </p>
 
+<img src="Crudexemplo.png"/>
+
 <h3>Minhas anotações...</h3>
 <p>Anotações sobre os comandos básicos do Docker, em especial ao instalar e usos iniciais:</p>
 
