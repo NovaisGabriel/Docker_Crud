@@ -62,7 +62,8 @@
 
 <p>docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</p>
 
-<p>Depois é só acessar o servidor local com localhost:8080 que vai estar lá o index.html
+<p>Depois é só acessar o servidor local com localhost:8080 que vai estar lá o index.html.
+    
 <b>Observação:</b> É necessário colocar o diretório na pasta onde está situado o html, caso contrário não será possível visualizar a página que está sendo mandada para o servidor.
 Para maiores informações basta olhar o html pelo localhost que possui outras dicas. Está localizado em ex-volume/html.
     </p>
