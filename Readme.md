@@ -15,7 +15,7 @@
 
 <p><b>1) Verificação de Instalação:</b></p>
 
-<p>docker container run hello-world</p>
+<p style="background-color: darkgrey;">docker container run hello-world</p>
 
 <p><b>2) Em caso de erro rodar:</b></p>
 
