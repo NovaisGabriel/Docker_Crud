@@ -19,52 +19,52 @@
 
 <p><b>2) Em caso de erro rodar:</b></p>
 
-<p>sudo groupadd docker</p>
-<p>sudo usermod -aG docker ${USER}</p>
-<p>newgrp docker</p>
-<p>docker run hello-world</p>
+<code>sudo groupadd docker</code>
+<code>sudo usermod -aG docker ${USER}</code>
+<code>newgrp docker</code>
+<code>docker run hello-world</code>
 
 <p><b>3) Testando novamente:</b></p>
 
-<p>docker container run hello-world</p>
+<code>docker container run hello-world</code>
 
 <p><b>4) Verificando as versões:</b></p>
 
-<p>bash --version</p>
-<p>docker container run debian bash --version</p>
+<code>bash --version</code>
+<code>docker container run debian bash --version</code>
 
 <p><b>5) Agora verificando container ativo:</b></p>
 
-<p>docker container ps</p>
+<code>docker container ps</code>
 
 <p><b>6) Remover um container:</b></p>
 
-<p>docker container run --rm debian bash --version</p>
+<code>docker container run --rm debian bash --version</code>
 
 <p><b>7) Para entrar no container (no terminal):</b></p>
 
-<p>docker container run -it debian bash</p>
+<code>docker container run -it debian bash</code>
 
 <p><b>8) Criação de arquivos dentro do container:</b></p>
 
-<p>touch curso-docker.txt</p>
-<p>ls curso-docker.txt</p>
+<code>touch curso-docker.txt</code>
+<code>ls curso-docker.txt</code>
 
 <p><b>9) O run sempre cria um novo container então veja que:</b></p>
 
-<p>docker container run --name mydeb -it debian bash</p>
+<code>docker container run --name mydeb -it debian bash</code>
 
 <p><b>10) Para startar um container fazer o seguinte:</b></p>
 
-<p>docker container start -ai mydeb</p>
+<code>docker container start -ai mydeb</code>
 
 <p><b>11) Para mapear as portas de um container:</b></p>
 
-<p>docker container run -p 8080:80 nginx</p>
+<code>docker container run -p 8080:80 nginx</code>
 
 <p><b>12) Para rodar um servidor setando um diretório numa pasta do computador host basta fazer o seguinte:</b></p>
 
-<p>docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</p>
+<code>docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx</code>
 
 <p>Depois é só acessar o servidor local com localhost:8080 que vai estar lá o index.html.
     
