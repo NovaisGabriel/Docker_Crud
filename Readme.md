@@ -8,7 +8,7 @@
 
 <h3>Resultado Final</h3>
 <p>Como resultado das aulas foi possível construir um cadastramento simples mas funcional e modularizado pelos containers de frontend, backend e banco de dados em mongodb.</p>
-<img src="Crudexemplo.png"/>
+<img src="img/Crudexemplo.png"/>
 
 <h3>Minhas anotações...</h3>
 <p>Anotações sobre os comandos básicos do Docker, em especial ao instalar e usos iniciais:</p>
